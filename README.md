@@ -18,6 +18,9 @@ Not all functionality is currently implemented, so watch for updates.
 
 Scripts have been laid out to match the Admin API Docs, so you can follow along by reading through the server documentation.
 
+Use the "Debug" popover in the lower right to view JSON responses and HTTP Headers returned from the server.
+
+
 To Do:
    • Create/Edit schedules
    • Close/Open Files, send messages, etc...
