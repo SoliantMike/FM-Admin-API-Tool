@@ -20,9 +20,9 @@ Scripts have been laid out to match the Admin API Docs, so you can follow along 
 
 Use the "Debug" popover in the lower right to view JSON responses and HTTP Headers returned from the server.
 
+Updated to support managing more than one server. Added scripting and buttons to open, close, pause and resume databases.
 
 To Do:
-   • Create/Edit schedules
    • Close/Open Files, send messages, etc...
 
 
