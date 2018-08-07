@@ -22,8 +22,10 @@ Use the "Debug" popover in the lower right to view JSON responses and HTTP Heade
 
 Updated to support managing more than one server. Added scripting and buttons to open, close, pause and resume databases. Added support for managing connected clients, send messages and disconnect.
 
+Also added some support for managing schedules.
+
 To Do:<ul>
-   <li>Manage schedules</li>
+   <li>Add and Edit schedules</li>
 </ul>
 
 
