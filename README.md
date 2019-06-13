@@ -1,7 +1,7 @@
 FM-Admin API Tool
 =================
 
-Updated version for FileMaker 18!
+Updated version for FileMaker 18! This replaces the older version that worked with FileMaker 17.
 
 This file is presented as a learning tool for:
 
@@ -30,4 +30,4 @@ To Do:<ul>
    <li>Add and Edit schedules</li>
 </ul>
 
-Version for working with FileMaker 17 servers is still available. Note that this version of the admin api expires in September 2019.
+Note: Version for working with FileMaker 17 servers is still available here, named "Admin API Tool_v17.fmp12". Note that this version of the admin api expires in September 2019.
