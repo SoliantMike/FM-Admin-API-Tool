@@ -26,6 +26,8 @@ Updated to work with v2 for FM 18, including multiple web publishing worker mach
 
 Also added some support for managing schedules. Full support for schedules are still in development.
 
+Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-18-admin-api/">https://www.soliantconsulting.com/blog/filemaker-18-admin-api/</a>
+
 To Do:<ul>
    <li>Add and Edit schedules</li>
 </ul>
