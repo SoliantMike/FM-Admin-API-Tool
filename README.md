@@ -12,7 +12,7 @@ The file is very much a work in progress, so you can use as a foundation to buil
 
 This is provided as-is with no warranties, and it is up to you to add any needed security to your own files.
 
-To use, create a new record and add your complete server URL, including "http://" or "https://" and trailing ":16000/" at the end. In the "Authentication" panel, enter the username and password for a valid admin account for your FileMaker Server.
+To use, create a new record and add your server URL, not including "http://" or "https://" and trailing ":16000/" at the end. In the "Authentication" panel, enter the username and password for a valid admin account for your FileMaker Server.
 
 Once you have logged in, you can check status and manage your server, including changing several settings not available in the web based Admin Console, such as setting the cache size.
 
@@ -26,7 +26,7 @@ Updated to work with v2 for FM 18, including multiple web publishing worker mach
 
 Also added some support for managing schedules. Full support for schedules are still in development.
 
-Added some preliminary support for working with and testing the FM Data API. See the last layout in the sample file and add data for File Name, Layout and more. You will need a separate record for specifying the server and do not include the 16000 port in the URL.
+Added some support for working with and testing the FM Data API. See the last layout in the sample file to explore functionality.
 
 Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-18-admin-api/">https://www.soliantconsulting.com/blog/filemaker-18-admin-api/</a>
 
