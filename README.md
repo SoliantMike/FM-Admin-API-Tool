@@ -26,7 +26,7 @@ Updated to work with v2 for FM 18, including multiple web publishing worker mach
 
 Also added some support for managing schedules. Full support for schedules are still in development.
 
-Added some support for working with and testing the FM Data API. See the last layout in the sample file to explore functionality.
+Added some support for working with and testing the FM Data API. Click the "data api" button in the sample file to explore functionality. You can get details about file hosted on the server, connect as a user and explore records.
 
 Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-18-admin-api/">https://www.soliantconsulting.com/blog/filemaker-18-admin-api/</a>
 
