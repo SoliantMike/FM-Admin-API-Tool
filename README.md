@@ -34,4 +34,4 @@ To Do:<ul>
    <li>Add and Edit schedules</li>
 </ul>
 
-Note: Version for working with FileMaker 17 servers is still available here, named "Admin API Tool_v17.fmp12". Note that this version of the admin api expires in September 2019.
+Note: The Admin API in FileMaker 17 expired in September 2019.
