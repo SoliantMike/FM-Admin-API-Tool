@@ -28,7 +28,7 @@ Full support for schedules are included in this latest build.
 
 Added some support for working with and testing the FM Data API. Click the "data api" button in the sample file to explore functionality. You can get details about file hosted on the server, connect as a user and explore records.
 
-Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-18-admin-api/">https://www.soliantconsulting.com/blog/filemaker-18-admin-api/</a>
+Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-19-admin-api/">https://www.soliantconsulting.com/blog/filemaker-19-admin-api/</a>
 
 
 Note: The Admin API in FileMaker 17 expired in September 2019.
