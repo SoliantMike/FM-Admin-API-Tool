@@ -1,6 +1,8 @@
 FM-Admin API Tool
 =================
 
+New for FileMaker Server 19.2, you can now manage FM License, SSL certificate and FM Plugins, as well as configure server notifications.
+
 Updated version for the latest versions of FileMaker Server. This version requires FileMaker 18+. All scripts that accept parameters have been updated to use JSON as script parameters.
 
 This file is presented as a learning tool for:
