@@ -3,7 +3,7 @@ FM-Admin API Tool
 
 New for FileMaker Server 19.2, you can now manage FM License, SSL certificate and FM Plugins, as well as configure server notifications.
 
-Note that if you have a clean install of 19.2 on a Windows Server, php installation is no longer included. Run this optional powershell script to install php 7 and configure for FMS. Then the Admin API calls to control PHP will work from FMS Admin API as well.
+Note that if you have a clean install of 19.2 on a Windows Server, php installation is no longer included. Run this optional powershell script to install php 7 and configure for FMS. Then the Admin API calls to control PHP will work from FMS Admin API as well. You can re-enable checking the PHP admin api by default in the navigation script if you want that as well.
 
 Updated version for FileMaker Server 19.2. This version requires FileMaker 18+. Some Admin API calls are not supported on earlier versions of FMS and may return an error. All scripts that accept parameters have been updated to use JSON as script parameters.
 
