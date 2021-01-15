@@ -31,17 +31,22 @@ $bytes = 'enable_dl = On' + "`n"
 $bytes = 'extension = php_curl.dll' + "`n"
 [IO.File]::AppendAllText($inifile, $bytes)
 
+# optional, enable openssl in php
+# $bytes = 'extension = php_openssl.dll' + "`n"
+# [IO.File]::AppendAllText($inifile, $bytes)
+
+
 setx /M path "%PATH%;C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php;"
 cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine"
 
 Expand-Archive -Path "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\FM_API_for_PHP_Standalone.zip" -DestinationPath php
 
-# Optional: pear install and config...these should be run manually as they require user input
+# Optional: pear install and config...these should be run manually as pear requires user input
 # cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php"
 # Start-BitsTransfer -Source https://pear.php.net/go-pear.phar -Destination go-pear.phar
 # c:\windows\system32\cmd.exe /c 'C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php\php.exe' go-pear.phar
 
-# uncomment to set these...
+# uncomment to set these if needed
 # c:\windows\system32\cmd.exe /c net start "FileMaker Server"
 # fmsadmin -v
 # fmsadmin SET CWPCONFIG ENABLEPHP=true
