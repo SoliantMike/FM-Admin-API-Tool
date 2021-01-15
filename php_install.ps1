@@ -4,7 +4,8 @@
 # Claris notes here: https://support.claris.com/s/article/PHP-bundling-deprecation-and-removal-from-FileMaker-Server?language=en_US
 # 
 
-c:\windows\system32\cmd.exe /c net stop "FileMaker Server"
+# option: stop FMS while installing, also commented at the end to start
+# c:\windows\system32\cmd.exe /c net stop "FileMaker Server"
 
 cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine"
 
@@ -35,11 +36,12 @@ cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine
 
 Expand-Archive -Path "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\FM_API_for_PHP_Standalone.zip" -DestinationPath php
 
-# Optional: pear install and config...
+# Optional: pear install and config...these should be run manually as they require user input
 # cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php"
 # Start-BitsTransfer -Source https://pear.php.net/go-pear.phar -Destination go-pear.phar
 # c:\windows\system32\cmd.exe /c 'C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php\php.exe' go-pear.phar
 
-c:\windows\system32\cmd.exe /c net start "FileMaker Server"
-fmsadmin -v
-fmsadmin SET CWPCONFIG ENABLEPHP=true
+# uncomment to set these...
+# c:\windows\system32\cmd.exe /c net start "FileMaker Server"
+# fmsadmin -v
+# fmsadmin SET CWPCONFIG ENABLEPHP=true
