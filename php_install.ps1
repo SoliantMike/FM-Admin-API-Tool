@@ -35,11 +35,13 @@ $bytes = 'extension = php_curl.dll' + "`n"
 # $bytes = 'extension = php_openssl.dll' + "`n"
 # [IO.File]::AppendAllText($inifile, $bytes)
 
+setx /M PATH "$Env:PATH;C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php;"
 
-setx /M path "%PATH%;C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php;"
+
 cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine"
 
 Expand-Archive -Path "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\FM_API_for_PHP_Standalone.zip" -DestinationPath php
+
 
 # Optional: pear install and config...these should be run manually as pear requires user input
 # cd "C:\Program Files\FileMaker\FileMaker Server\Web Publishing\publishing-engine\php"
