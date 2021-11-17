@@ -1,6 +1,8 @@
 FM-Admin API Tool
 =================
 
+Still updating for 19.4. Added option to specify port 16000 for backwards compatibility.
+
 New for FileMaker Server 19.3, you can now manage External Authentication, FileMaker Client Settings, OData, removing a hosted file and the ability to update the user/pass for the root console user.
 
 Now includes functionality to save a cache of the schedules JSON returned from a server, along with the ability to review any of those in order to recreate or restore from past versions. Each time you GET a list of schedules from the server, it is compared with the last cached version, and if there are any differences, and new version is saved.
