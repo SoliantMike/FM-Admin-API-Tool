@@ -1,7 +1,7 @@
 FM-Admin API Tool
 =================
 
-Still updating for 19.4. Added option to specify port 16000 for backwards compatibility.
+Still updating for 19.4. Added option to specify port 16000 for backwards compatibility. Updated to support setting Authenticated Stream Setting.
 
 New for FileMaker Server 19.3, you can now manage External Authentication, FileMaker Client Settings, OData, removing a hosted file and the ability to update the user/pass for the root console user.
 
