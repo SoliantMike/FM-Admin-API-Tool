@@ -1,15 +1,21 @@
 FM-Admin API Tool
 =================
 
-Still updating for 19.4. Added option to specify port 16000 for backwards compatibility. Updated to support setting Authenticated Stream Setting.
+Additions to 19.5 include:
 
-New for FileMaker Server 19.3, you can now manage External Authentication, FileMaker Client Settings, OData, removing a hosted file and the ability to update the user/pass for the root console user.
+	• Cancel currently running backup
+	• Get Server Parallel Backup Setting
+	• Update Server Parallel Backup Setting
+
+For 19.4, Added option to specify port 16000 for backwards compatibility. Updated to support setting Authenticated Stream Setting.
+
+New in 9.3, you can now manage External Authentication, FileMaker Client Settings, OData, removing a hosted file and the ability to update the user/pass for the root console user.
 
 Now includes functionality to save a cache of the schedules JSON returned from a server, along with the ability to review any of those in order to recreate or restore from past versions. Each time you GET a list of schedules from the server, it is compared with the last cached version, and if there are any differences, and new version is saved.
 
 Note that if you have a clean install of 19.2 or later on a Windows Server, php installation is no longer included. Run this optional powershell script to install php 7 and configure for FMS. Then the Admin API calls to control PHP will work from FMS Admin API as well. You can re-enable checking the PHP admin api by default in the navigation script if you want that as well.
 
-Updated version for FileMaker Server 19.3. This version requires FileMaker 18+. Some Admin API calls are not supported on earlier versions of FMS and may return an error. All scripts that accept parameters have been updated to use JSON as script parameters.
+Note: This version requires FileMaker 19. Some Admin API calls are not supported on earlier versions of FMS and may return an error. All scripts that accept parameters have been updated to use JSON as script parameters.
 
 This file is presented as a learning tool for:
 
