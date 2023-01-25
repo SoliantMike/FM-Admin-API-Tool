@@ -1,7 +1,19 @@
 FM-Admin API Tool
 =================
 
-Additions to 19.5 include:
+New in 19.6:
+
+	• PKI Authentication using JWT
+	• Manage API public keys, as well as scripting to create private/public keys and JWT
+	• Restrict Admin Console and Admin API access
+	• Get database visibility
+	• Clone only option in Scheduled Backups
+
+Scripting to create private/public keys works in FileMaker Pro on either platform and requires applescript (macos) or powershell (win) to run the required shell functions. These are the same functions that get run in the included python scripts that come with FileMaker Server as example files. There is no python dependency when run from this API Tool. Also included is the ability to generate a JSON Web Token (JWT) that can then be used to authenticate when making Admin API calls.
+
+This functionality is also available in the standalone file named Admin API Keys & JWT.fmp12, if that is all you need. Note that in either file, the private key is not encrypted with a pass phrase since it is only stored in the database and not as a file on disk. You should apply security on the fmp file as needed to secure private keys.
+
+Updates to 19.5 added:
 
 	• Cancel currently running backup
 	• Get Server Parallel Backup Setting
