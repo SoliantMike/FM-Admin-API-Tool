@@ -2,6 +2,7 @@ FM-Admin API Tool
 =================
 
 New in 20.1.1:
+
 	• Get/Set Persistent Cache Settings
 	• Get/Update Nginx Load Balancer URL Setting
 
