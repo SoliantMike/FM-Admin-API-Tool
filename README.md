@@ -1,6 +1,8 @@
 FM-Admin API Tool
 =================
 
+FileMaker Server 2023 (20.1.1) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/introducing-filemaker-2023-platform/">https://www.soliantconsulting.com/blog/introducing-filemaker-2023-platform/</a>
+
 New in 20.1.1:
 
 	• Get/Set Persistent Cache Settings
