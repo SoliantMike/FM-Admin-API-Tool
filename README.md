@@ -1,6 +1,10 @@
 FM-Admin API Tool
 =================
 
+New in 20.1.1:
+	• Get/Set Persistent Cache Settings
+	• Get/Update Nginx Load Balancer URL Setting
+
 New in 19.6:
 
 	• PKI Authentication using JWT
@@ -54,4 +58,4 @@ Full support for schedules are included in this latest build.
 
 Added some support for working with and testing the FM Data API. Click the "data api" button in the sample file to explore functionality. You can get details about file hosted on the server, connect as a user and explore records.
 
-Blog regarding 19.5 update: <a href="https://www.soliantconsulting.com/blog/filemaker-19-5-admin-api/">https://www.soliantconsulting.com/blog/filemaker-19-5-admin-api/</a>
+Blog regarding 19.6 update: <a href="https://www.soliantconsulting.com/blog/filemaker-server-admin-api-tool-19-6/">https://www.soliantconsulting.com/blog/filemaker-server-admin-api-tool-19-6/</a>
