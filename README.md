@@ -1,7 +1,17 @@
 FM-Admin API Tool
 =================
 
-FileMaker Server 2023 (20.1.1) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/introducing-filemaker-2023-platform/">https://www.soliantconsulting.com/blog/introducing-filemaker-2023-platform/</a>
+FileMaker Server 2024 (version number 21) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/">https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/</a>
+
+New in 21.0.1:
+
+	• Upload/Download a Database File
+	• Manage Administrator Roles
+	• Get/Set Admin Contact
+	• Get/Set Blocking new users on hosted files
+	• Several More, see release notes for more (https://help.claris.com/en/server-release-notes/content/index.html)
+
+Note that this release should be used only with FileMaker Server 21, as there are some differences in some api calls that are not handled by server version number, and the code was not branched to handle different versions. If you run a prior version of FMS, you can get an older release.
 
 New in 20.1.1:
 
