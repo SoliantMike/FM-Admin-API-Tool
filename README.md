@@ -1,7 +1,7 @@
 FM-Admin API Tool
 =================
 
-FileMaker Server 2024 (version number 21) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/">https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/</a>
+FileMaker Server 2024 (version number 21) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/">https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/</a>
 
 New in 21.1.1:
 
