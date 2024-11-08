@@ -3,6 +3,11 @@ FM-Admin API Tool
 
 FileMaker Server 2024 (version number 21) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/">https://www.soliantconsulting.com/blog/filemaker-2024-executive-summary-1/</a>
 
+New in 21.1.1:
+
+	• Get and set the HTTPS tunneling option
+	• Upload SSL certs with files instead of a newline-escaped strings
+
 New in 21.0.1:
 
 	• Upload/Download a Database File
