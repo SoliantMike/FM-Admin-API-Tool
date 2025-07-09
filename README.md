@@ -1,7 +1,22 @@
 FM-Admin API Tool
 =================
 
-FileMaker Server 2024 (version number 21) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/">https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/</a>
+FileMaker Server 2025 (version number 22) is out! See here for a summary <a href="https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/">https://www.soliantconsulting.com/blog/claris-filemaker-2024-platform-version-21-1-executive-summary/</a>
+
+New in 22.0.1:
+
+	• Get Script Error Log
+	• Update Script error logs
+	• Get Max Number of CWP Connections Setting
+	• Update Max Number of CWP Connections Setting
+	• Get FileMaker WebDirect Custom Homepage Setting
+	• Update FileMaker WebDirect Custom Homepage Setting
+	• Get FileMaker WebDirect Custom Home URL Setting
+	• Update FileMaker WebDirect Custom Home URL Setting
+	• Get Simultaneous FMSE Sessions before Queuing
+	• Set Simultaneous FMSE Sessions before Queuing
+	• Request Let's Encrypt Certificate
+	• Renew Let's Encrypt Certificate
 
 New in 21.1.1:
 
